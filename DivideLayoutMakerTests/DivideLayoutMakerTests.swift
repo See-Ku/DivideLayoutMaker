@@ -8,7 +8,7 @@
 
 import XCTest
 @testable import DivideLayoutMaker
-
+/*
 class DivideLayoutMakerTests: XCTestCase {
     
     override func setUp() {
@@ -34,3 +34,4 @@ class DivideLayoutMakerTests: XCTestCase {
     }
     
 }
+*/

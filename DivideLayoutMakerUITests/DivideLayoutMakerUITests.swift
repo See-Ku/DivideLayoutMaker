@@ -8,6 +8,7 @@
 
 import XCTest
 
+/*
 class DivideLayoutMakerUITests: XCTestCase {
         
     override func setUp() {
@@ -34,3 +35,4 @@ class DivideLayoutMakerUITests: XCTestCase {
     }
     
 }
+*/

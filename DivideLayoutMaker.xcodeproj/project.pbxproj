@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61BD5034C39083140A7CBC21 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE9C6B8DEC66A6BB79D1B76 /* Pods.framework */; };
+		8716764F1CB0915800B90CDD /* ConfigSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716764E1CB0915800B90CDD /* ConfigSize.swift */; };
+		871952A71CAFDEEC006137BE /* UnitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871952A61CAFDEEC006137BE /* UnitConfig.swift */; };
+		871952A91CAFE664006137BE /* ConfigMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871952A81CAFE664006137BE /* ConfigMargin.swift */; };
+		871CC5421CB0B4B800300717 /* UnitSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871CC5411CB0B4B800300717 /* UnitSortViewController.swift */; };
+		871CC5441CB0B52A00300717 /* UnitSortTableAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871CC5431CB0B52A00300717 /* UnitSortTableAdmin.swift */; };
+		8760C88D1CAF90E90008C0F7 /* UnitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8760C88C1CAF90E90008C0F7 /* UnitListViewController.swift */; };
+		8760C88F1CAF92380008C0F7 /* UnitListTableAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8760C88E1CAF92380008C0F7 /* UnitListTableAdmin.swift */; };
+		8760C8911CAF92830008C0F7 /* UnitTableAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8760C8901CAF92830008C0F7 /* UnitTableAdmin.swift */; };
+		8760C8931CAFAFED0008C0F7 /* UnitConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8760C8921CAFAFED0008C0F7 /* UnitConfigViewController.swift */; };
 		87BBED161CAF2E8000FF05A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED151CAF2E8000FF05A1 /* AppDelegate.swift */; };
-		87BBED181CAF2E8000FF05A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED171CAF2E8000FF05A1 /* ViewController.swift */; };
 		87BBED1B1CAF2E8000FF05A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BBED191CAF2E8000FF05A1 /* Main.storyboard */; };
 		87BBED1D1CAF2E8000FF05A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BBED1C1CAF2E8000FF05A1 /* Assets.xcassets */; };
 		87BBED201CAF2E8000FF05A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87BBED1E1CAF2E8000FF05A1 /* LaunchScreen.storyboard */; };
-		87BBED2B1CAF2E8000FF05A1 /* DivideLayoutMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED2A1CAF2E8000FF05A1 /* DivideLayoutMakerTests.swift */; };
 		87BBED361CAF2E8000FF05A1 /* DivideLayoutMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED351CAF2E8000FF05A1 /* DivideLayoutMakerUITests.swift */; };
+		87BBED451CAF305E00FF05A1 /* LayoutListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED441CAF305E00FF05A1 /* LayoutListViewController.swift */; };
+		87BBED471CAF30B200FF05A1 /* LayoutListTableAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED461CAF30B200FF05A1 /* LayoutListTableAdmin.swift */; };
+		87BBED4B1CAF372E00FF05A1 /* AppAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED4A1CAF372E00FF05A1 /* AppAdmin.swift */; };
+		87BBED4D1CAF3AED00FF05A1 /* LayoutFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED4C1CAF3AED00FF05A1 /* LayoutFile.swift */; };
+		87BBED5E1CAF4E8700FF05A1 /* LayoutEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED5D1CAF4E8700FF05A1 /* LayoutEditViewController.swift */; };
+		87BBED601CAF504700FF05A1 /* LayoutEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED5F1CAF504700FF05A1 /* LayoutEditView.swift */; };
+		87BBED621CAF516400FF05A1 /* FileConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BBED611CAF516400FF05A1 /* FileConfig.swift */; };
+		87FC53C61CB253530081078A /* DivideLayoutMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC53C51CB253530081078A /* DivideLayoutMakerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,20 +49,51 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		87FC53A81CB205430081078A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		22DF525BFE12B802B694968A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5FE9C6B8DEC66A6BB79D1B76 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8716764E1CB0915800B90CDD /* ConfigSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigSize.swift; sourceTree = "<group>"; };
+		871952A61CAFDEEC006137BE /* UnitConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConfig.swift; sourceTree = "<group>"; };
+		871952A81CAFE664006137BE /* ConfigMargin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigMargin.swift; sourceTree = "<group>"; };
+		871CC5411CB0B4B800300717 /* UnitSortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitSortViewController.swift; sourceTree = "<group>"; };
+		871CC5431CB0B52A00300717 /* UnitSortTableAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitSortTableAdmin.swift; sourceTree = "<group>"; };
+		8738B0B776A2A461DFDFDA46 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8760C88C1CAF90E90008C0F7 /* UnitListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitListViewController.swift; sourceTree = "<group>"; };
+		8760C88E1CAF92380008C0F7 /* UnitListTableAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitListTableAdmin.swift; sourceTree = "<group>"; };
+		8760C8901CAF92830008C0F7 /* UnitTableAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTableAdmin.swift; sourceTree = "<group>"; };
+		8760C8921CAFAFED0008C0F7 /* UnitConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConfigViewController.swift; sourceTree = "<group>"; };
 		87BBED121CAF2E8000FF05A1 /* DivideLayoutMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DivideLayoutMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BBED151CAF2E8000FF05A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87BBED171CAF2E8000FF05A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87BBED1A1CAF2E8000FF05A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87BBED1C1CAF2E8000FF05A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87BBED1F1CAF2E8000FF05A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87BBED211CAF2E8000FF05A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87BBED261CAF2E8000FF05A1 /* DivideLayoutMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivideLayoutMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87BBED2A1CAF2E8000FF05A1 /* DivideLayoutMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideLayoutMakerTests.swift; sourceTree = "<group>"; };
 		87BBED2C1CAF2E8000FF05A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87BBED311CAF2E8000FF05A1 /* DivideLayoutMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivideLayoutMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BBED351CAF2E8000FF05A1 /* DivideLayoutMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideLayoutMakerUITests.swift; sourceTree = "<group>"; };
 		87BBED371CAF2E8000FF05A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87BBED441CAF305E00FF05A1 /* LayoutListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutListViewController.swift; sourceTree = "<group>"; };
+		87BBED461CAF30B200FF05A1 /* LayoutListTableAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutListTableAdmin.swift; sourceTree = "<group>"; };
+		87BBED4A1CAF372E00FF05A1 /* AppAdmin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAdmin.swift; sourceTree = "<group>"; };
+		87BBED4C1CAF3AED00FF05A1 /* LayoutFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutFile.swift; sourceTree = "<group>"; };
+		87BBED5D1CAF4E8700FF05A1 /* LayoutEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutEditViewController.swift; sourceTree = "<group>"; };
+		87BBED5F1CAF504700FF05A1 /* LayoutEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutEditView.swift; sourceTree = "<group>"; };
+		87BBED611CAF516400FF05A1 /* FileConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileConfig.swift; sourceTree = "<group>"; };
+		87FC53C51CB253530081078A /* DivideLayoutMakerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivideLayoutMakerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61BD5034C39083140A7CBC21 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +122,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2331F31F6B5058C6A8EF9028 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22DF525BFE12B802B694968A /* Pods.debug.xcconfig */,
+				8738B0B776A2A461DFDFDA46 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8716764A1CB08C4800B90CDD /* LayoutList */ = {
+			isa = PBXGroup;
+			children = (
+				87BBED441CAF305E00FF05A1 /* LayoutListViewController.swift */,
+				87BBED461CAF30B200FF05A1 /* LayoutListTableAdmin.swift */,
+			);
+			name = LayoutList;
+			sourceTree = "<group>";
+		};
+		8716764B1CB08C5F00B90CDD /* LayoutEdit */ = {
+			isa = PBXGroup;
+			children = (
+				87BBED5D1CAF4E8700FF05A1 /* LayoutEditViewController.swift */,
+				87BBED5F1CAF504700FF05A1 /* LayoutEditView.swift */,
+				87BBED611CAF516400FF05A1 /* FileConfig.swift */,
+			);
+			name = LayoutEdit;
+			sourceTree = "<group>";
+		};
+		8716764C1CB08CAA00B90CDD /* UnitList */ = {
+			isa = PBXGroup;
+			children = (
+				8760C88C1CAF90E90008C0F7 /* UnitListViewController.swift */,
+				8760C88E1CAF92380008C0F7 /* UnitListTableAdmin.swift */,
+			);
+			name = UnitList;
+			sourceTree = "<group>";
+		};
+		8716764D1CB08E8C00B90CDD /* UnitConfig */ = {
+			isa = PBXGroup;
+			children = (
+				8760C8921CAFAFED0008C0F7 /* UnitConfigViewController.swift */,
+				871952A61CAFDEEC006137BE /* UnitConfig.swift */,
+			);
+			name = UnitConfig;
+			sourceTree = "<group>";
+		};
+		871CC5451CB0B54300300717 /* UnitSort */ = {
+			isa = PBXGroup;
+			children = (
+				871CC5411CB0B4B800300717 /* UnitSortViewController.swift */,
+				871CC5431CB0B52A00300717 /* UnitSortTableAdmin.swift */,
+			);
+			name = UnitSort;
+			sourceTree = "<group>";
+		};
 		87BBED091CAF2E8000FF05A1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +184,8 @@
 				87BBED291CAF2E8000FF05A1 /* DivideLayoutMakerTests */,
 				87BBED341CAF2E8000FF05A1 /* DivideLayoutMakerUITests */,
 				87BBED131CAF2E8000FF05A1 /* Products */,
+				2331F31F6B5058C6A8EF9028 /* Pods */,
+				E09A0B6B626F6B0C0614E20E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +203,16 @@
 			isa = PBXGroup;
 			children = (
 				87BBED151CAF2E8000FF05A1 /* AppDelegate.swift */,
-				87BBED171CAF2E8000FF05A1 /* ViewController.swift */,
+				87BBED4A1CAF372E00FF05A1 /* AppAdmin.swift */,
+				87BBED4C1CAF3AED00FF05A1 /* LayoutFile.swift */,
+				8716764E1CB0915800B90CDD /* ConfigSize.swift */,
+				871952A81CAFE664006137BE /* ConfigMargin.swift */,
+				8760C8901CAF92830008C0F7 /* UnitTableAdmin.swift */,
+				8716764A1CB08C4800B90CDD /* LayoutList */,
+				8716764B1CB08C5F00B90CDD /* LayoutEdit */,
+				8716764C1CB08CAA00B90CDD /* UnitList */,
+				8716764D1CB08E8C00B90CDD /* UnitConfig */,
+				871CC5451CB0B54300300717 /* UnitSort */,
 				87BBED191CAF2E8000FF05A1 /* Main.storyboard */,
 				87BBED1C1CAF2E8000FF05A1 /* Assets.xcassets */,
 				87BBED1E1CAF2E8000FF05A1 /* LaunchScreen.storyboard */,
@@ -110,7 +224,7 @@
 		87BBED291CAF2E8000FF05A1 /* DivideLayoutMakerTests */ = {
 			isa = PBXGroup;
 			children = (
-				87BBED2A1CAF2E8000FF05A1 /* DivideLayoutMakerTests.swift */,
+				87FC53C51CB253530081078A /* DivideLayoutMakerTests.swift */,
 				87BBED2C1CAF2E8000FF05A1 /* Info.plist */,
 			);
 			path = DivideLayoutMakerTests;
@@ -125,6 +239,14 @@
 			path = DivideLayoutMakerUITests;
 			sourceTree = "<group>";
 		};
+		E09A0B6B626F6B0C0614E20E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FE9C6B8DEC66A6BB79D1B76 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +254,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87BBED3A1CAF2E8100FF05A1 /* Build configuration list for PBXNativeTarget "DivideLayoutMaker" */;
 			buildPhases = (
+				F6C57B190B8C77B9A7CF75D9 /* Check Pods Manifest.lock */,
 				87BBED0E1CAF2E8000FF05A1 /* Sources */,
 				87BBED0F1CAF2E8000FF05A1 /* Frameworks */,
 				87BBED101CAF2E8000FF05A1 /* Resources */,
+				87FC53A81CB205430081078A /* Embed Frameworks */,
+				166D4D9EA0C517CDBF1877A8 /* Embed Pods Frameworks */,
+				34AE3A9AB28BD9D99CC07380 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +377,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		166D4D9EA0C517CDBF1877A8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34AE3A9AB28BD9D99CC07380 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6C57B190B8C77B9A7CF75D9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87BBED0E1CAF2E8000FF05A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BBED181CAF2E8000FF05A1 /* ViewController.swift in Sources */,
+				87BBED471CAF30B200FF05A1 /* LayoutListTableAdmin.swift in Sources */,
+				8760C88F1CAF92380008C0F7 /* UnitListTableAdmin.swift in Sources */,
 				87BBED161CAF2E8000FF05A1 /* AppDelegate.swift in Sources */,
+				871CC5421CB0B4B800300717 /* UnitSortViewController.swift in Sources */,
+				87BBED621CAF516400FF05A1 /* FileConfig.swift in Sources */,
+				871952A91CAFE664006137BE /* ConfigMargin.swift in Sources */,
+				87BBED4B1CAF372E00FF05A1 /* AppAdmin.swift in Sources */,
+				87BBED451CAF305E00FF05A1 /* LayoutListViewController.swift in Sources */,
+				871952A71CAFDEEC006137BE /* UnitConfig.swift in Sources */,
+				87BBED5E1CAF4E8700FF05A1 /* LayoutEditViewController.swift in Sources */,
+				87BBED4D1CAF3AED00FF05A1 /* LayoutFile.swift in Sources */,
+				8716764F1CB0915800B90CDD /* ConfigSize.swift in Sources */,
+				87BBED601CAF504700FF05A1 /* LayoutEditView.swift in Sources */,
+				8760C8911CAF92830008C0F7 /* UnitTableAdmin.swift in Sources */,
+				8760C8931CAFAFED0008C0F7 /* UnitConfigViewController.swift in Sources */,
+				8760C88D1CAF90E90008C0F7 /* UnitListViewController.swift in Sources */,
+				871CC5441CB0B52A00300717 /* UnitSortTableAdmin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BBED2B1CAF2E8000FF05A1 /* DivideLayoutMakerTests.swift in Sources */,
+				87FC53C61CB253530081078A /* DivideLayoutMakerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +588,7 @@
 		};
 		87BBED3B1CAF2E8100FF05A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22DF525BFE12B802B694968A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DivideLayoutMaker/Info.plist;
@@ -410,6 +600,7 @@
 		};
 		87BBED3C1CAF2E8100FF05A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8738B0B776A2A461DFDFDA46 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DivideLayoutMaker/Info.plist;
@@ -423,10 +614,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DivideLayoutMakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.DivideLayoutMakerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DivideLayoutMaker.app/DivideLayoutMaker";
 			};
 			name = Debug;
@@ -435,6 +628,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = DivideLayoutMakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.see-ku.DivideLayoutMakerTests";
@@ -484,6 +678,7 @@
 				87BBED3C1CAF2E8100FF05A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87BBED3D1CAF2E8100FF05A1 /* Build configuration list for PBXNativeTarget "DivideLayoutMakerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +687,7 @@
 				87BBED3F1CAF2E8100FF05A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87BBED401CAF2E8100FF05A1 /* Build configuration list for PBXNativeTarget "DivideLayoutMakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +696,7 @@
 				87BBED421CAF2E8100FF05A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
