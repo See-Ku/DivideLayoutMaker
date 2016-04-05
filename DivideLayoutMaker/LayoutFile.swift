@@ -47,46 +47,49 @@ class LayoutFile {
 		let portrait: SK4DivideLayoutUnit
 		let landscape: SK4DivideLayoutUnit
 
+		let statusBar = SK4DivideLayoutUnit.TypeName.statusBar
+		let navigationBar = SK4DivideLayoutUnit.TypeName.navigationBar
+
 		switch base {
 		case .Free:
 			portrait = SK4DivideLayoutUnit()
 			landscape = SK4DivideLayoutUnit()
 
 		case .StatusBar:
-			// 縦向き、上下2分割、ステータスバーの高さは決め打ち
+			// 縦向き。上下2分割で上はステータスバー
 			portrait = SK4DivideLayoutUnit.makeDivideUnit(width: 1, height: 2)
-			portrait.addChildSpace(width: 0, height: 20)
+			portrait.addChildOther(statusBar)
 
+			// 横向き
 			if sk4IsPhone() {
 
-				// iPhoneの横向きは分割無し
+				// iPhoneは分割無し
 				landscape = SK4DivideLayoutUnit()
-
 			} else {
 
-				// その他の横向きは分割
+				// その他は縦向きと同じ
 				landscape = SK4DivideLayoutUnit.makeDivideUnit(width: 1, height: 2)
-				landscape.addChildSpace(width: 0, height: 20)
+				landscape.addChildOther(statusBar)
 			}
 
 		case .NavigationBar:
-			// 縦向き、上下3分割
+			// 縦向き。上下3分割
 			portrait = SK4DivideLayoutUnit.makeDivideUnit(width: 1, height: 3)
-			portrait.addChildSpace(width: 0, height: 20)
-			portrait.addChildSpace(width: 0, height: 40)
+			portrait.addChildOther(statusBar)
+			portrait.addChildOther(navigationBar)
 
+			// 横向き
 			if sk4IsPhone() {
 
-				// 横向き、上下2分割
+				// iPhoneは上下2分割
 				landscape = SK4DivideLayoutUnit.makeDivideUnit(width: 1, height: 2)
-				landscape.addChildSpace(width: 0, height: 32)
-
+				landscape.addChildOther(navigationBar)
 			} else {
 
-				// 横向き、上下3分割
+				// その他は縦向きと同じ
 				landscape = SK4DivideLayoutUnit.makeDivideUnit(width: 1, height: 3)
-				landscape.addChildSpace(width: 0, height: 20)
-				landscape.addChildSpace(width: 0, height: 40)
+				landscape.addChildOther(statusBar)
+				landscape.addChildOther(navigationBar)
 			}
 		}
 

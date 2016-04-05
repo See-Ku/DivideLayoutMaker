@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EC20F13BB163CC37D5C27CF4D4E64DBC14C98A09",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6CF7353A56941F65946AD8BFCDB3B6B293E89261" : 0,
+    "EC20F13BB163CC37D5C27CF4D4E64DBC14C98A09" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F539CE08-05AC-45D5-A9CA-56F8962962A3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6CF7353A56941F65946AD8BFCDB3B6B293E89261" : "..\/library\/SK4Toolkit",
+    "EC20F13BB163CC37D5C27CF4D4E64DBC14C98A09" : "DivideLayoutMaker\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DivideLayoutMaker",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DivideLayoutMaker.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/See-Ku\/SK4ToolKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6CF7353A56941F65946AD8BFCDB3B6B293E89261"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/See-Ku\/DivideLayoutMaker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC20F13BB163CC37D5C27CF4D4E64DBC14C98A09"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 PODS:
-  - SK4Toolkit (2.7.0)
+  - SK4Toolkit (2.7.1)
 
 DEPENDENCIES:
   - SK4Toolkit (from `https://github.com/See-Ku/SK4Toolkit.git`)
@@ -10,10 +10,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SK4Toolkit:
-    :commit: 21369dacc777e662794f499674e528169759721a
+    :commit: ada7ceb8157577fc9eeef090097efb22e96eca0f
     :git: https://github.com/See-Ku/SK4Toolkit.git
 
 SPEC CHECKSUMS:
-  SK4Toolkit: 3fdf3f5f3d65001c5d5e2411a5aefb30342e7f86
+  SK4Toolkit: 54c0db713e35ffb1507f5f7c42fee758b034ac82
 
 COCOAPODS: 0.39.0

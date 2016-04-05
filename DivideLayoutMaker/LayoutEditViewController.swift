@@ -157,7 +157,7 @@ class LayoutEditViewController: UIViewController, SK4DivideLayoutAdminDelegate, 
 	override func viewDidLayoutSubviews() {
 		super.viewDidLayoutSubviews()
 
-		layoutAdmin.updateLayoutAuto()
+		layoutAdmin.updateLayoutAuto(self)
 	}
 
     override func didReceiveMemoryWarning() {
